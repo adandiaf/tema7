@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Contenedor principal */
+.Contenedor0 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2c2c2c;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+/* Título principal */
+.Contenedor0 h1 {
+    text-align: center;
+    color: #f4b400;
+    margin-bottom: 30px;
+}
+/* Cajas */
+.caja01, .caja02, .caja03, .caja04 {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    background-color: #383838;
+}
+/* Títulos de cada caja */
+.caja01 h2, .caja02 h2, .caja03 h2, .caja04 h2 {
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+/* Imagen */
+.caja02 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+/* Videos y iframes */
+video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+/* Audio */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+/* Enlaces si llegas a agregarlos */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
